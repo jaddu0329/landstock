@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ls-primary: #0b3d2e;
+  --ls-secondary: #0f5b43;
+}
+
+body {
+  background-color: #0f172a;
+  color: white;
+}
+
+.leaflet-popup-content-wrapper { border-radius: 16px !important; }
